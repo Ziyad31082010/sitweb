@@ -77,5 +77,65 @@ button {
     box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
   }
 
+  .main { 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .main .contenu .NosJoueurs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .main .contenu .NosJoueurs .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+  }
+
+  .main .contenu .NosJoueurs.Right {
+    flex: 0 0 70%;
+  }
+
+.main .contenu .NosJoueurs .img {
+  margin-top: 5px;
+  height: 600px;
+  width: 300px;
+}
+
+.main { 
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .contenu .NosJoueurs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main .contenu .NosJoueurs .left {
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+}
+
+.main .contenu .NosJoueurs.Right {
+  flex: 0 0 70%;
+}
+
+.main .contenu .NosJoueurs .img {
+margin-top: 5px;
+height: 600px;
+width: 300px;
+}
 
