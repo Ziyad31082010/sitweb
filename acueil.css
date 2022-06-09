@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    background: url(./images/Footbal_Fire_Stadium_Legs_Ball_Athletic_shoe_Lawn_563459_3840x2160.jpg);
+    color: #fff;
 }
 
 nav {
@@ -42,6 +44,7 @@ header {
     align-items: center; 
 }
 
+/* pas moi  */
 button {
     padding: 20px 50px;
     font-size: 1.5rem;
@@ -77,6 +80,8 @@ button {
     box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
   }
 
+  /* fin de pas moi   */
+
   .main { 
     margin-top: 40px;
     display: flex;
@@ -109,7 +114,7 @@ button {
 }
 
 .main { 
-  margin-top: 40px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,3 +144,7 @@ height: 600px;
 width: 300px;
 }
 
+#imgret img {
+  height: 500px;
+  width: 400px;
+}
